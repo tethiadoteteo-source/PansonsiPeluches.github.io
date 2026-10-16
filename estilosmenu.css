@@ -1,0 +1,198 @@
+body{ 
+font-family: Arial, Helvetica, sans-serif;
+background: #e8e8e8;
+background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("nuevo\ fondo.png");
+background-size: cover;
+background-position: center;
+background-attachment: fixed; 
+margin: 0;
+padding: 0;
+}
+
+.menu{
+list-style: none;
+padding:0;
+background: #fff29b;
+width:90%;
+max-width:1000px;
+margin: 0 auto;
+text-align: center;
+}
+
+.menu li a{ 
+text-decoration: none;
+color:black;
+padding: 15px 25px;
+display: block;
+font-size: 21px; 
+font-weight: bold;
+}
+
+.menu li { 
+display: inline-block;
+text-align: center;
+}
+
+.menu li a:hover{
+background: #ffee93 
+}
+
+.cabin-sketch-bold {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 30x; 
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+
+h1 {
+  margin-top: 5px; 
+  margin-bottom: 5px;
+}
+
+.tarjeta-contenido {
+  background-color: rgba(255, 238, 144, 0.5); 
+  padding: 30px; 
+  max-width: 400px; 
+  margin: 30px auto;
+  border-radius: 10px;   
+}
+
+.btn{ 
+  border-radius: 3px;
+  display: inline-block;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 1px rbga(0,0,0,0.3);
+}
+.btn-orange{ 
+  color: antiquewhite;
+  background-color: rgb(233, 131, 14);
+}
+.btn-orange:hover{ 
+  background-color: beige;
+}
+.btn-orange:active{ 
+  background-color: antiquewhite;
+}
+
+ body {
+    font-family: 'Cabin Sketch', sans-serif;
+    background-color: rgb(107, 106, 106);
+    box-sizing: border-box;
+  }
+
+  form {
+    background-color: rgb(252, 234, 137);
+    border-radius: 10px;
+    color: #333;
+    font-size: 14px; 
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    margin: -110px auto 0 auto;
+    zoom:130%;
+    position: relative; 
+  z-index: 10;
+  }
+
+  
+  input, textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  .field {
+    border: 1px solid #5f5e5e;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .field:focus {
+    border-color: #007bff;
+  }
+
+  .center-content {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .btn {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .btn-blue {
+    color: white;
+    background-color: rgb(233, 131, 14); 
+  }
+
+  .btn-orange:hover {
+    background-color: rgb(233, 131, 14);
+  }
+
+  /* Estilos del Footer */
+.footer {
+    background-color: #fff8e7; 
+    color: #555;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px; 
+    border-top: 1px solid #ffe4b5; 
+    font-size: 14px;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-brand {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.footer-contact {
+    margin: 6px 0;
+    font-size: 13px;
+}
+
+.footer-socials {
+    margin: 12px 0;
+}
+
+.footer-socials a {
+    color: #e67e22; 
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.footer-socials a:hover {
+    text-decoration: underline;
+}
+
+.footer-copy {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+}
